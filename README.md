@@ -33,7 +33,7 @@ The `Easy LOD` tool contains the following settings:
 - **Ratio**: The ratio of triangles to remove at each LOD level.
 - **Symmetry**: Whether to apply symmetry to the decimation.
 
-**To apply new Settings:** Click `Remove` and then `Add` buttons from
+**To apply new Settings:** Click `Remove` and then `Add` buttons
 
 
 ## Exporting
