@@ -1,6 +1,8 @@
 # EasyLOD Add-on for Blender
 
 EasyLOD is a powerful Blender addon for game developers, allowing for easy creation of LOD (Level of Detail) groups with just a few clicks. It simplifies the process of optimizing game performance while maintaining visual quality, with flexible options for fine-tuning settings.
+
+Native support for **Unity** LOD format
 ## Requirements
 
 This add-on requires Blender 3.0.0 or newer.
