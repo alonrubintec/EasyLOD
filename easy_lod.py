@@ -5,11 +5,13 @@ import os
 bl_info = {
     "name": "EasyLOD",
     "author": "Alon Rubin",
-    "description": "Easy LOD Maker",
+    "description": "EasyLOD allows users to quickly create LOD models.",
     "blender": (3, 00, 0),
-    "location": "View3D > Tools Panel > My Addon",
+    "version": (1, 1),
+    "location": "View3D > Sidebar > Easy LOD",
     "warning": "",
-    "category": "Easy"
+    "category": "LOD",
+    "doc_url": "https://github.com/alonrubintec/EasyLOD"
 }
 
 ui_space = 0.35
@@ -363,8 +365,6 @@ bpy.types.Scene.ratio_power = bpy.props.FloatProperty(
     precision=1
 )
 
-
-
 def ShowMessageBox(message = "", title = "Message Box", icon = 'INFO'):
     def draw(self, context):
         self.layout.label(text=message)
@@ -376,7 +376,6 @@ Classes = (MainPanel, Settings_Panel, Start_Panel, Export_Panel,
 
 
 def register():
-    update_visibility = None
     # Classes
     for c in Classes:
         bpy.utils.register_class(c)
@@ -400,14 +399,7 @@ def register():
         subtype="FILE_PATH",
         default=""
     )
-    bpy.types.Scene.visibility = bpy.props.IntProperty(
-        name="",
-        default=0,
-        min=0,
-        max=100,
-        description="Visibility of the active LOD",
-        update=update_visibility
-    )
+
 
 def unregister():
 
@@ -416,7 +408,6 @@ def unregister():
         bpy.utils.unregister_class(c)
 
     # Property
-    del bpy.types.Scene.visibility
     del bpy.types.Scene.intensity
     del bpy.types.Scene.symmetry
     del bpy.types.Scene.current_modifier
