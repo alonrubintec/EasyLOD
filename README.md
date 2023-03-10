@@ -7,8 +7,12 @@ Native support for **Unity** LOD format
 
 This add-on requires Blender 3.0.0 or newer.
 
+### App preview:
+![Alt text](https://www.youtube.com/watch?v=fXJ2h0iOFIA&ab_channel=ALONZUBINA "app_preview.png")
 ## Tutorial:
-
+<a href="https://www.youtube.com/watch?v=ZwK2B9AODtw&ab_channel=ALONZUBINA" target="_blank">
+<img src="https://www.youtube.com/watch?v=fXJ2h0iOFIA&ab_channel=ALONZUBINA" alt="Watch the series" width="340" height="180" border="10" />
+</a>
 ## Installation
 
 1. Download the `easy_lod.py` file.
