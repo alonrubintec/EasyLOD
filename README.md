@@ -6,7 +6,7 @@ Native support for **Unity** LOD format
 
 
 ## Tutorial:
-<a href="https://www.youtube.com/watch?v=ZwK2B9AODtw&ab_channel=ALONZUBINA" target="_blank">
+<a href="https://www.youtube.com/watch?v=fXJ2h0iOFIA&ab_channel=ALONZUBINA" target="_blank">
 <img src="https://raw.githubusercontent.com/alonrubintec/EasyLOD/master/More/thumbnail.png" alt="Watch the series" width="340" height="180" border="10" />
 </a>
 
